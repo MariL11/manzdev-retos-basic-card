@@ -24,7 +24,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    font-family: Montserrat;
 }
 
 #card{
@@ -53,7 +53,7 @@ body{
 }
 
 #avatar{
-    width: 120px;
+    width: 125px;
     position: relative;
     top: 20px;
     border-radius: 100%;
@@ -82,17 +82,16 @@ body{
     flex-direction: row;
     color: var(--color_marron);
     font-style: italic;
-    gap: 10px;
+    gap: 6x;
 }
 
 #country > svg{
-    width: 15px;
+    width: 25px;
     color: var(--color_marron);
 }
 
 
 p{
-    font-family: Montserrat, sans-serif;
     margin-inline: 8%;
 }
 
@@ -103,7 +102,7 @@ button{
     padding: 15px;
     color: var(--color_azul);
     padding-inline: 30px;
-    font-weight: bold;
+    font-weight:700;
 }
 
 #card-footer{
@@ -135,5 +134,5 @@ button{
 }
 
 .img-footer{
-    width: 20px;
+    width: 18px;
 }
