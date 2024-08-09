@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --color_rojo:#ff3867;
+    --color_amarillo:#ffc873;
+    --color_rosa:#d37ec6;
+    --color_marron:#a05d5d;
+    --color_azul:#2d7cbf;
+    --color_gris:#888888;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(45deg, var(--color_rosa), var(--color_amarillo), var(--color_rojo)) no-repeat fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#card{
+    border: 2px solid red;
+    width: 450px;
+    height: 600px;
+
+}
+
+p{
+    font-family: Montserrat, sans-serif;
+}
+
+#main-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer-card{
+    display: flex;
+    justify-content:space-around;
+}
+
