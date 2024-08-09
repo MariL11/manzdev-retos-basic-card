@@ -12,7 +12,7 @@
     --color_rojo:#ff3867;
     --color_amarillo:#ffc873;
     --color_rosa:#d37ec6;
-    --color_marron:#a05d5d;
+    --color_marron:rgb(160, 93, 93);
     --color_azul:#2d7cbf;
     --color_gris:#888888;
     --color_blanco:#ffffff;
@@ -33,19 +33,19 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 0px 0px 10px 1px var(--color_gris);
     overflow: hidden;
     background-color: var(--color_blanco);
 
 }
 
-#header-card{
+#card-header{
    background-image: url(./img/Servidores.jpg);
    background-size: cover; 
    background-position: center; 
    background-repeat: no-repeat;
-   height: 30%;
+   height: 50%;
    display: flex;
    align-items: end;
    justify-content: center;
@@ -62,19 +62,41 @@ body{
 }
 
 
-#main-card{
+#card-main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content:space-evenly;
     height: 100%;
 }
 
-p{
-    font-family: Montserrat, sans-serif;
+#data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-#footer-card{
+#country{
+    display: flex;
+    flex-direction: row;
+    color: var(--color_marron);
+    font-style: italic;
+    gap: 10px;
+}
+
+#country > svg{
+    width: 15px;
+    color: var(--color_marron);
+}
+
+
+p{
+    font-family: Montserrat, sans-serif;
+    margin-inline: 8%;
+}
+
+#card-footer{
     display: flex;
     justify-content:space-around;
 }
